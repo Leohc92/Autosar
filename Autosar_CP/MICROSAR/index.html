@@ -16,7 +16,7 @@
     
     
       
-        <title>Microsar - Autosar KnowHow</title>
+        <title>MICROSAR 集成指导 - Autosar KnowHow</title>
       
     
     
@@ -60,6 +60,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#autosar" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -92,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Microsar
+              MICROSAR 集成指导
             
           </span>
         </div>
@@ -313,6 +318,76 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#autosar" class="md-nav__link">
+    Autosar方法论
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    集成
+  </a>
+  
+    <nav class="md-nav" aria-label="集成">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-mcaleb-tresos" class="md-nav__link">
+    1. 集成第三方MCAL(EB Tresos)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-davinci" class="md-nav__link">
+    2. 创建DaVinci工程
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-mcal" class="md-nav__link">
+    3. 导入MCAL配置
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-dbc" class="md-nav__link">
+    4. 导入DBC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-dext" class="md-nav__link">
+    5. 导入DEXT
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    6. 多核工程
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -326,9 +401,19 @@
                   
 
 
-  <h1>Microsar</h1>
+  <h1>MICROSAR 集成指导</h1>
 
-
+<h2 id="autosar">Autosar方法论</h2>
+<h2 id="_1">集成</h2>
+<h3 id="1-mcaleb-tresos">1. 集成第三方MCAL(EB Tresos)</h3>
+<h3 id="2-davinci">2. 创建DaVinci工程</h3>
+<h3 id="3-mcal">3. 导入MCAL配置</h3>
+<h3 id="4-dbc">4. 导入DBC</h3>
+<p>通过导入DBC文件至Davinci Developer，可以生成CAN、CANIF、CANTP、PDUR、COM、DCM、CANNM、CANSM相关配置。但是DBC相应的attributes必须符合Vector的标准才能正确导入，否则部分选项需要手动修改配置，参考《Vector Rules for Legacy Communication Descriptions.pdf》</p>
+<h3 id="5-dext">5. 导入DEXT</h3>
+<h3 id="6">6. 多核工程</h3>
+<hr />
+<p>RTEAnalyzer</p>
 
 
 
