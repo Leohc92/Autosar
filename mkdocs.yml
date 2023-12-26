@@ -1,0 +1,11 @@
+site_name: Automotive Software Knowledge Roadmap
+theme:
+  name: material
+
+
+nav:
+  - Home:   "index.md"
+  - About:  "about.md"
+  - 技能地图总览: "Knowledge_Roadmap/RoadMap_Guideline.md"
+  - 功能安全与网络安全: 
+      - 网络安全: "Safety_Topic/ISOSAE_21434.md"
