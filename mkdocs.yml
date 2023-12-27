@@ -1,6 +1,8 @@
 site_name: Automotive Software Knowledge Roadmap
 theme:
   name: material
+  favicon: images/favicon.ico
+  logo: images/favicon.ico
 
 
 nav:
