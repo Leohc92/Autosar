@@ -3,11 +3,32 @@ theme:
   name: material
   favicon: images/favicon.ico
   logo: images/favicon.ico
+  language: zh
+
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
 
 
+#page tree
 nav:
   - Home:   "index.md"
   - About:  "about.md"
   - 技能地图总览: "Knowledge_Roadmap/RoadMap_Guideline.md"
+  - 通用软件技术: "Safety_Topic/ISOSAE_21434.md"
+  - 业务软件技术: "Safety_Topic/ISOSAE_21434.md"
+  - AUTOSAR: 
+      - "Autosar_CP/Network_Management/CanNm.md"
+      - HSM: "Autosar_CP/HSM.md"
+  - 汽车诊断知识: "Safety_Topic/ISOSAE_21434.md"
+  - 汽车OTA知识: "Safety_Topic/ISOSAE_21434.md"
   - 功能安全与网络安全: 
-      - 网络安全: "Safety_Topic/ISOSAE_21434.md"
+      - 网络安全: 
+          - ISO21434浅析: "Safety_Topic/ISOSAE_21434.md"
+          - 威胁分析与风险评估: "T-BOX/TARA.md"
+      - 功能安全: 
+          - 功能安全系统分析: "Safety_Topic/ISO2626_Introduction/System_Safety.md"
