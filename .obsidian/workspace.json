@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ae989f923a252b45",
+        "id": "090a8afcf2920383",
         "type": "tabs",
         "children": [
           {
-            "id": "b110fad2d40d0604",
+            "id": "fa95064931658a0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Knowledge_Roadmap/RoadMap_Guideline.md",
+                "file": "docs/Autosar_CP/Communication/PduR.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "switch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 355.5
   },
   "right": {
     "id": "8d910be9dd590d64",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Knowledge_Roadmap/RoadMap_Guideline.md",
+                "file": "docs/Autosar_CP/Communication/PduR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Knowledge_Roadmap/RoadMap_Guideline.md",
+                "file": "docs/Autosar_CP/Communication/PduR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Knowledge_Roadmap/RoadMap_Guideline.md"
+                "file": "docs/Autosar_CP/Communication/PduR.md"
               }
             }
           }
@@ -146,31 +146,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b110fad2d40d0604",
+  "active": "fa95064931658a0e",
   "lastOpenFiles": [
+    "docs/Autosar_CP/Communication/PduR code review.md",
+    "docs/Autosar_CP/Communication/SoAd.md",
+    "docs/Autosar_CP/Communication/StbM.md",
+    "docs/Autosar_CP/Communication/Pdur src.md",
+    "docs/Autosar_CP/Communication/CanTp.md",
+    "docs/Autosar_CP/Communication/CanTsyn.md",
+    "docs/Autosar_CP/Communication/PduR.md",
+    "docs/Autosar_CP/Diagnostic/UDS NRC.md",
+    "docs/Autosar_CP/Network_Management/CanNm.md",
+    "docs/Autosar_CP/Methodology.md",
+    "docs/Autosar_CP/HSM.md",
+    "docs/Autosar_CP/MICROSAR.md",
+    "docs/Autosar_CP/vLinkGen.md",
+    "docs/Autosar_CP/Communication/PrivateProtocol/EthAdapter.md",
+    "docs/Work/以太网通信协议适配.md",
+    "docs/Work/雷达信号路由.md",
+    "docs/MCU_Knowledge/ARM/ARMv8-M_MPU.md",
+    "docs/pics/image-20231019142940311.png",
+    "docs/about.md",
+    "docs/Safety_Topic/ISO2626_Introduction/Concept phase.md",
+    "docs/Safety_Topic/ISO2626_Introduction/System_Safety.md",
+    "docs/TODO.md",
+    "docs/Work",
+    "docs/Autosar_CP/Communication/Ethernet/Ethernet Switch.md",
+    "docs/Safety_Topic/ISOSAE_21434.md",
+    "docs/Autosar_CP/Task Mapping.md",
+    "docs/Knowledge_Roadmap/RoadMap_Guideline.md",
+    "Untitled.canvas",
+    "docs/pics/Pasted image 20240808170943.png",
+    "docs/pics/Pasted image 20240808170921.png",
+    "docs/pics/Pasted image 20240808170918.png",
+    "docs/Autosar_CP/Communication/PrivateProtocol",
+    "docs/pics/Pasted image 20240807161610.png",
+    "docs/T-BOX/T-box cybersecurity.md",
+    "docs/pics/Pasted image 20240806112430.png",
+    "docs/pics/Pasted image 20240723100845.png",
+    "docs/pics/Pasted image 20240723100835.png",
+    "docs/pics/Pasted image 20240723100800.png",
+    "docs/MCU_Knowledge/Tricore",
+    "docs/pics/Pasted image 20240718132431.png",
+    "docs/images/favicon.ico",
+    "docs/images",
+    "docs/Autosar_CP/Communication/Ethernet",
+    "docs/Autosar_CP/Communication",
     "site/search/search_index.json",
     "site/search",
-    "site/Vector/Vector/index.html",
-    "site/Vector/Vector",
-    "site/Vector",
-    "site/T-BOX/TARA/index.html",
-    "site/T-BOX/TARA",
-    "site/T-BOX/T-BOX_TARA/index.html",
-    "site/T-BOX/T-BOX_TARA",
-    "site/T-BOX",
-    "site/Safety_Topic/ISO2626_Introduction/System_Safety/index.html",
-    "site/assets/images/favicon.png",
-    "site/pics/screenshot-20231019-154513.png",
-    "site/pics/Pasted image 20231214135424.png",
-    "site/pics/Pasted image 20231214135253.png",
-    "site/pics/Pasted image 20231201170554.png",
-    "site/pics/Pasted image 20231027160537.png",
-    "site/pics/image-20231019142940311.png",
-    "docs/Autosar_CP/vLinkGen.md",
-    "docs/Autosar_CP/Task Mapping.md",
-    "docs/Safety_Topic/ISOSAE_21434.md",
-    "docs/Knowledge_Roadmap/RoadMap_Guideline.md",
-    "docs/index.md",
-    "docs/about.md"
+    "site/Vector/Vector/index.html"
   ]
 }

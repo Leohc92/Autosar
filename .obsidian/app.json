@@ -1,5 +1,8 @@
 {
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "docs/pics"
+  "attachmentFolderPath": "docs/pics",
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "promptDelete": false
 }
